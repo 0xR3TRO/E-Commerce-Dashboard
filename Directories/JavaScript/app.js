@@ -40,11 +40,15 @@ let customer_options = {
 	series: [
 		{
 			name: "Store Customers",
-			data: [40, 70, 20, 90, 36, 80, 30, 91, 60],
+			data: [
+				40, 50, 20, 30, 36, 80, 30, 91, 49, 40, 70, 28, 80, 36, 80, 30, 30, 60,
+			],
 		},
 		{
 			name: "Online Customers",
-			data: [20, 30, 10, 20, 16, 40, 20, 51, 10],
+			data: [
+				20, 40, 10, 20, 16, 40, 20, 68, 10, 20, 30, 10, 20, 22, 40, 32, 51, 85,
+			],
 		},
 	],
 	colors: ["#6ab04c", "#2980b9"],
@@ -59,7 +63,26 @@ let customer_options = {
 		curve: "smooth",
 	},
 	xaxis: {
-		categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"],
+		categories: [
+			"Jan",
+			"Feb",
+			"Mar",
+			"Apr",
+			"May",
+			"Jun",
+			"Jul",
+			"Aug",
+			"Sep",
+			"Jan",
+			"Feb",
+			"Mar",
+			"Apr",
+			"May",
+			"Jun",
+			"Jul",
+			"Aug",
+			"Sep",
+		],
 	},
 	legend: {
 		position: "top",
